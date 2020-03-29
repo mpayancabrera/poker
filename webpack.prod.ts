@@ -1,5 +1,10 @@
 import path from 'path';
+import HtmlWebPackPlugin from "html-webpack-plugin";
 import webpack from 'webpack';
+
+const htmlPlugin = new HtmlWebPackPlugin({
+  template: "./public/index.html"
+});
 
 const config: webpack.Configuration = {
   mode: 'production',
@@ -23,7 +28,7 @@ const config: webpack.Configuration = {
       },
     ],
   },
-  plugins: [],
+  plugins: [htmlPlugin],
 };
 
 export default config;
