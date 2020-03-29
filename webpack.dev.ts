@@ -1,5 +1,6 @@
 import webpack from "webpack";
 import HtmlWebPackPlugin from "html-webpack-plugin";
+import CopyWebPackPlugin from "copy-webpack-plugin";
 import { resolve } from "path";
 
 const htmlPlugin = new HtmlWebPackPlugin({
@@ -26,7 +27,20 @@ const config: webpack.Configuration = {
       }
     ]
   },
-  plugins: [htmlPlugin]
+  plugins: [htmlPlugin, new CopyWebPackPlugin([
+    {
+      from: "./public/css",
+      to: "css"
+    },
+    {
+      from: "./public/js",
+      to: "js"
+    },
+    {
+      from: "./public/images",
+      to: "images"
+    }
+  ])]
 };
 
 export default config;
