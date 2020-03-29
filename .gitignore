@@ -1,0 +1,24 @@
+.DS_*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# IntelliJ
+*.iml
+.idea/
+
+# VsCode
+.vscode/
+
+# Environment variables
+.env
+!.env.dist
+
+# Build folder
+dist/
+build/
