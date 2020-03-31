@@ -45,21 +45,28 @@ export const resumeData = {
       specialization: "Senior Full Stack developer",
       MonthOfLeaving: "Mar",
       YearOfLeaving: "2019",
-      Achievements: "Some Achievements"
+      Achievements: [
+        "React",
+        "Symfony",
+        "Python",
+        "Docker",
+        "Kubernetes",
+        "CI/CD"
+      ]
     },
     {
       CompanyName: "University of Granada",
       specialization: "Data Scientist and Full Stack developer",
       MonthOfLeaving: "Jul",
       YearOfLeaving: "2017",
-      Achievements: "Some Achievements"
+      Achievements: ["HTML", "Javascript", "Jquery", "Java", "Python", "R"]
     },
     {
       CompanyName: "SICE",
       specialization: "Junior developer",
       MonthOfLeaving: "Jun",
       YearOfLeaving: "2016",
-      Achievements: "Some Achievements"
+      Achievements: ["React", "C#"]
     }
   ],
   skillsSections: [
@@ -73,7 +80,7 @@ export const resumeData = {
           skillname: "CSS"
         },
         {
-          skillname: "Reactjs"
+          skillname: "React"
         }
       ]
     },
@@ -104,20 +111,23 @@ export const resumeData = {
     {
       name: "Holidays and Control time module (Laravel, Javascript).",
       description: "Bilky Documents portal",
-      purpose: "Control and manage your employees vacations and absences easily and the daily signing of your employees automatically and safe.",
-      imgurl: "../images/portfolio/bilky2.jpg",
+      purpose:
+        "This module inside of Bilky software allows control and manage your employees vacations and absences easily and the daily signing automatically and safe.",
+      imgurl: "../images/portfolio/bilky2.jpg"
     },
     {
-      name: "Neural networks applied to the ticket sales of Alhambra monument (Matlab, Tensorflow).",
+      name:
+        "Neural networks applied to the ticket sales of Alhambra monument (Matlab, Tensorflow).",
       description: "Research paper",
-      purpose: "The aim of this work was to find a forecasting technique with the best adjusts to the demand of visitors to the Alhambra, which is greater every year, and since it is a monument with an annual capacity limit, the flow of visitors forecasting is a crucial issue to organize the capacity in subsequent years.",
-      imgurl: "../images/portfolio/alhambra.jpg",
+      purpose:
+        "The aim of this work was to find a forecasting technique with the best adjusts to the demand of visitors to the Alhambra, which is greater every year. Since it's a monument with an annual capacity limit, the flow of visitors forecasting is a crucial issue to organize the capacity in subsequent years.",
+      imgurl: "../images/portfolio/alhambra.jpg"
     },
     {
-      name: "Inmobiliaria 3.0 (Django).",
+      name: "Inmobiliaria 3.0 (Django Framework).",
       description: "Real state website",
-      purpose: "Update the current website.",
-      imgurl: "../images/portfolio/inmo30.jpg",
+      purpose: "A project to update the current website of the company.",
+      imgurl: "../images/portfolio/inmo30.jpg"
     }
   ],
   testimonials: [

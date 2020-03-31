@@ -54,7 +54,12 @@ export const Resume = () => {
                         {item.MonthOfLeaving} {item.YearOfLeaving}
                       </em>
                     </p>
-                    <p>{item.Achievements}</p>
+                    <div className="work-skills">
+                      {item.Achievements &&
+                        item.Achievements.map((achievement: string) => (
+                          <span className="label-skill"> {achievement} </span>
+                        ))}
+                    </div>
                   </div>
                 </div>
               );

@@ -27,20 +27,31 @@ const config: webpack.Configuration = {
       }
     ]
   },
-  plugins: [htmlPlugin, new CopyWebPackPlugin([
-    {
-      from: "./public/css",
-      to: "css"
-    },
-    {
-      from: "./public/js",
-      to: "js"
-    },
-    {
-      from: "./public/images",
-      to: "images"
-    }
-  ])]
+  plugins: [
+    htmlPlugin,
+    new CopyWebPackPlugin([
+      {
+        from: "./public/css",
+        to: "css"
+      },
+      {
+        from: "./public/js",
+        to: "js"
+      },
+      {
+        from: "./public/images",
+        to: "images"
+      },
+      {
+        from: "./public/favicon.ico",
+        to: ""
+      },
+      {
+        from: "./public/manifest.json",
+        to: ""
+      }
+    ])
+  ]
 };
 
 export default config;
