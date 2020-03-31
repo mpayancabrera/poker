@@ -9,7 +9,7 @@ export const About = () => {
         <div className="three columns profile-pic">
           <img
             className="profile-pic"
-            src="../../public/images/profilepic.jpg"
+            src="../images/profilepic.jpg"
             alt=""
           />
         </div>

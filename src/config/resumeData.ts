@@ -105,19 +105,19 @@ export const resumeData = {
       name: "Holidays and Control time module (Laravel, Javascript).",
       description: "Bilky Documents portal",
       purpose: "Control and manage your employees vacations and absences easily and the daily signing of your employees automatically and safe.",
-      imgurl: "./public/images/portfolio/bilky2.jpg",
+      imgurl: "../images/portfolio/bilky2.jpg",
     },
     {
       name: "Neural networks applied to the ticket sales of Alhambra monument (Matlab, Tensorflow).",
       description: "Research paper",
       purpose: "The aim of this work was to find a forecasting technique with the best adjusts to the demand of visitors to the Alhambra, which is greater every year, and since it is a monument with an annual capacity limit, the flow of visitors forecasting is a crucial issue to organize the capacity in subsequent years.",
-      imgurl: "./public/images/portfolio/alhambra.jpg",
+      imgurl: "../images/portfolio/alhambra.jpg",
     },
     {
       name: "Inmobiliaria 3.0 (Django).",
       description: "Real state website",
       purpose: "Update the current website.",
-      imgurl: "./public/images/portfolio/inmo30.jpg",
+      imgurl: "../images/portfolio/inmo30.jpg",
     }
   ],
   testimonials: [
