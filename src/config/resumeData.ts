@@ -2,7 +2,7 @@ export const resumeData = {
   name: "Manuel Payán Cabrera",
   role: "Full Stack Developer and Data Scientist",
   roleDescription:
-    "I like dabbling in both frontend and backend development and like to learn about new technologies. I really love to watch series and movies, follow any soccer game or simply practice sport in my free time.",
+    "I like dabbling in both frontend and backend development and I am always looking out for and learning new and better approaches and technologies that help me do a better job. I really love to watch series and movies, follow any soccer game or simply practice sport in my free time.",
   socialLinks: [
     {
       name: "linkedin",
@@ -16,9 +16,9 @@ export const resumeData = {
     }
   ],
   aboutme: [
-    "First of all, thanks for visiting my page. I am currently working at PcComponentes as Full Stack developer since March 2019. We are currently working on improving the web so that the user experience is really good and on multiple internal tools that make the work of the people at PcComponentes easier.",
-    "Before starting work in Granada, I spent a year and a half in Madrid at an international company called SICE dedicated to the development of intelligent transport systems. Finally, commenting that as soon as I finished my degree, I started as SAP developer at Accenture in Malag during a year.",
-    "Before, I have worked at the University of Granada as researcher. I was part of a group of researchers for a project of the Alhambra monument in which it was intended to improve the flow of visitors and avoid the multiple problems it presented.",
+    "First of all, thanks for visiting my page. I am currently working at PcComponentes as Full Stack developer since March 2019 (Granada office). We are currently working on improving the web so that the user experience is really good and on multiple internal tools that make the work of the people at PcComponentes easier.",
+    "Before, I have worked as researcher at the University of Granada. I was part of a group of researchers for a project between the university and  Alhambra of Granada in which the aim was to improve the flow of visitors and avoid the multiple problems it presented.",
+    "Before starting to work in Granada, I spent a year and a half at SICE (Madrid) an international company dedicated to the development of intelligent transport systems. This has been a short tour of my professional experience, without forgetting that I started as SAP developer at Accenture (Malaga) during a year.",
     "I am a self taught Full Stack Web Developer and from two years ago, also into Machine Learning. I believe that one of the keys to success in life is to work very hard. One must pursue his dreams and continue working towards them. Therefore, I strive every day to learn new technologie, in how to improve my code or watching talks about experts."
   ],
   address: "Granada (Spain)",
@@ -59,14 +59,14 @@ export const resumeData = {
       specialization: "Data Scientist and Full Stack developer",
       MonthOfLeaving: "Jul",
       YearOfLeaving: "2017",
-      Achievements: ["HTML", "Javascript", "Jquery", "Java", "Python", "R"]
+      Achievements: ["Angular", "Jquery", "Java", "Python", "R"]
     },
     {
       CompanyName: "SICE",
       specialization: "Junior developer",
       MonthOfLeaving: "Jun",
       YearOfLeaving: "2016",
-      Achievements: ["React", "C#"]
+      Achievements: ["React", "C#", "Php"]
     }
   ],
   skillsSections: [

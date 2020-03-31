@@ -56,9 +56,14 @@ export const Resume = () => {
                     </p>
                     <div className="work-skills">
                       {item.Achievements &&
-                        item.Achievements.map((achievement: string) => (
-                          <span className="label-skill"> {achievement} </span>
-                        ))}
+                        item.Achievements.map(
+                          (achievement: string, key: number) => (
+                            <span className="label-skill" key={key}>
+                              {" "}
+                              {achievement}{" "}
+                            </span>
+                          )
+                        )}
                     </div>
                   </div>
                 </div>
