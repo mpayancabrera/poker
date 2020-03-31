@@ -2,6 +2,7 @@ import path from "path";
 import HtmlWebPackPlugin from "html-webpack-plugin";
 import CopyWebPackPlugin from "copy-webpack-plugin";
 import ImageMinWebpackPlugin from "imagemin-webpack-plugin";
+import LodashModuleReplacementPlugin from "lodash-webpack-plugin";
 import webpack from "webpack";
 
 const htmlPlugin = new HtmlWebPackPlugin({
@@ -49,7 +50,8 @@ const config: webpack.Configuration = {
     new ImageMinWebpackPlugin({
       pngquant: { quality: "60-80" },
       jpegtran: { progressive: true }
-    })
+    }),
+    new LodashModuleReplacementPlugin()
   ]
 };
 

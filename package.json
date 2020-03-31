@@ -14,6 +14,7 @@
   "devDependencies": {
     "@types/copy-webpack-plugin": "^5.0.0",
     "@types/html-webpack-plugin": "^3.2.2",
+    "@types/lodash-webpack-plugin": "^0.11.3",
     "@types/node": "^13.9.2",
     "@types/react": "^16.9.25",
     "@types/react-dom": "^16.9.5",
@@ -34,6 +35,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "lodash-webpack-plugin": "^0.11.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.9.0",
