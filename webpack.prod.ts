@@ -1,7 +1,7 @@
 import path from "path";
 import HtmlWebPackPlugin from "html-webpack-plugin";
 import CopyWebPackPlugin from "copy-webpack-plugin";
-import ImageminPlugin from "imagemin-webpack-plugin";
+import ImageMinWebpackPlugin from "imagemin-webpack-plugin";
 import webpack from "webpack";
 
 const htmlPlugin = new HtmlWebPackPlugin({
@@ -46,8 +46,9 @@ const config: webpack.Configuration = {
         to: "images"
       }
     ]),
-    new ImageminPlugin({
-      pngquant: { quality: [0.5, 0.5] }
+    new ImageMinWebpackPlugin({
+      pngquant: { quality: "60-80" },
+      jpegtran: { progressive: true }
     })
   ]
 };
