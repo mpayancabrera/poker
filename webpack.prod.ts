@@ -45,6 +45,14 @@ const config: webpack.Configuration = {
       {
         from: "./public/images",
         to: "images"
+      },
+      {
+        from: "./public/favicon.ico",
+        to: ""
+      },
+      {
+        from: "./public/manifest.json",
+        to: ""
       }
     ]),
     new ImageMinWebpackPlugin({
