@@ -48,7 +48,7 @@ const config: webpack.Configuration = {
       }
     ]),
     new ImageMinWebpackPlugin({
-      pngquant: { quality: [0.7, 0.7] },
+      pngquant: { quality: "60-80" },
       jpegtran: { progressive: true }
     })
   ]
