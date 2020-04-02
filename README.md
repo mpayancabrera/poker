@@ -1,5 +1,5 @@
 
-A simple SPA personal page.
+A simple SPA personal page with english/spanish translations.
 
 ## Overview
 
@@ -13,5 +13,5 @@ This page makes use of the latest tools to improve the workflow, and enables you
 ## How to use
 1. Clone/Download the repo.
 2. Run  ``` npm install ```.
-3. Change the values in ```src/config/resumeData.ts``` to suit your use-case.
+3. Change the values in ```src/config/resumeDataEN.ts``` and ```src/config/resumeDataES.ts``` to suit your use-case.
 4. Run ```npm start``` to spin the up the local dev server port 8080.(http://localhost:8080).
