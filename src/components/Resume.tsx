@@ -8,7 +8,7 @@ export const Resume = () => {
       <div className="row education">
         <div className="three columns header-col">
           <h1>
-            <span>Education</span>
+            <span>{data.educationTitle}</span>
           </h1>
         </div>
 
@@ -36,7 +36,7 @@ export const Resume = () => {
       <div className="row work">
         <div className="three columns header-col">
           <h1>
-            <span>Work</span>
+            <span>{data.workTitle}</span>
           </h1>
         </div>
 
@@ -75,7 +75,7 @@ export const Resume = () => {
       <div className="row skill">
         <div className="three columns header-col">
           <h1>
-            <span>Skills</span>
+            <span>{data.skillsTitle}</span>
           </h1>
         </div>
 

@@ -53,7 +53,7 @@ export const Header = (props: IHeaderProps) => {
 
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">I am {data.name}</h1>
+            <h1 className="responsive-headline">{data.name}</h1>
             <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
               {data.role}.{data.roleDescription}
             </h3>

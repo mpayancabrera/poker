@@ -25,7 +25,7 @@ export const resumeData = {
   role:
     "Bienvenido, soy ingeniero de software Full Stack y Científico de Datos",
   roleDescription:
-    "Me gusta dabbling in both frontend and backend development and I am always looking out for and learning new and better approaches and technologies that help me do a better job. I really love to watch series and movies, follow any soccer game or simply practice sport in my free time.",
+    " Me gusta el desarrollo tanto frontend como backend. Intento estar al tanto sobre nuevas técnologias y en técnicas o habilidades para mejorar como programador y así poder realizar mejor mi trabajo. Me encanta ver series y películas, ver cualquier partido de fútbol (no importa la liga que sea) o simplemente prácticar cualquier deporte en mi tiempo libre.",
   socialLinks: [
     {
       name: "linkedin",
@@ -38,35 +38,39 @@ export const resumeData = {
       className: "fa fa-github"
     }
   ],
+  aboutTitle: "Un poco sobre mi",
   aboutme: [
-    "First of all, thanks for visiting my page. I am currently working at PcComponentes as Full Stack developer since March 2019 (Granada office). We are currently working on improving the web so that the user experience is really good and on multiple internal tools that make the work of the people at PcComponentes easier.",
-    "Before, I have worked as researcher at the University of Granada. I was part of a group of researchers for a project between the university and  Alhambra of Granada in which the aim was to improve the flow of visitors and avoid the multiple problems it presented.",
-    "Before starting to work in Granada, I spent a year and a half at SICE (Madrid) an international company dedicated to the development of intelligent transport systems. This has been a short tour of my professional experience, without forgetting that I started as SAP developer at Accenture (Malaga) during a year.",
-    "I am a self taught Full Stack Web Developer and from two years ago, also into Machine Learning. I believe that one of the keys to success in life is to work very hard. One must pursue his dreams and continue working towards them. Therefore, I strive every day to learn new technologie, in how to improve my code or watching talks about experts."
+    "En primer lugar, gracias por visitar mi página. Actualmente estoy trabajando para PcComponentes como desarrollador Full Stack desde marzo del 2019. PcComponentes tiene su sede principal en Alhama de Murcia, sin embargo, en 2018 abrió una sede para equipos IT en Granada. Entre los trabajos que estamos llevando a cabo actualmente se encuentran mejorar la web actual, para que la experiencia de usuario sea completamente satisfactoria y el desarrollo de herramientas internas que hagan más facil el trabajo de las personas de la compañia.",
+    "Antes de empezar a trabajar en PcComponentes, trabajé en la Universidad de Granada a través de un contrato de colaboración con el Patronato de la Alhambra. El principal objetivo de esta colaboración fue realizar diferentes estudios y la elaboración de diferentes herramientas que permitiesen mejorar la distribución de entradas a la venta así como mejorar el flujo de visitantes al monumento.",
+    "Paso previo a mi etapa en Granada, estuve trabajando durante año y medio en SICE (Madrid) una compañia internacional, filial de ACS, dedicada al diseño y desarrollo de sistemas inteligentes de transporte. Este ha sido un pequeño tour sobre mi experiencia profesional, sin olvidar mi primer trabajo como desarrollador SAP en Accenture (Malaga).",
+    "Me considero una persona autodidata con especial interés por la ciencia de datos y el desarrollo web. Considero que la clave para tener éxito tanto en la vida como en el trabajo es esforzarse y trabajar duro. Por ello, siempre trato de resolver los problemas que se presentan por difíciles que puedan parecer a priori. Invertir parte de mi tiempo libre a mejorar mediante cursos, tutoriales o charlas me ayuda a cumplir mi sueño."
   ],
-  address: "Granada (Spain)",
+  contactTitle: "Detalles de contacto",
+  address: "Granada (España)",
   email: "mpayancabrera@gmail.com",
+  educationTitle: 'Educación',
   education: [
     {
       UniversityName: "Universidad de Granada",
-      specialization: "Master in Data Science and Computer Engineering",
-      MonthOfPassing: "Aug",
+      specialization: "Master en Ciencia de Datos e Ingeniería de Computadores",
+      MonthOfPassing: "Agosto",
       YearOfPassing: "2018",
-      Achievements: "Data Science specialization"
+      Achievements: "Especialidad en Ciencia de Datos."
     },
     {
       UniversityName: "Universidad de Granada",
-      specialization: "Computer engineering degree",
-      MonthOfPassing: "Sep",
+      specialization: "Grado en Ingeniería Informática",
+      MonthOfPassing: "Septiembre",
       YearOfPassing: "2015",
-      Achievements: "Information Systems specialization"
+      Achievements: "Especialidad en Sistemas de Información"
     }
   ],
+  workTitle: 'Trabajo',
   work: [
     {
       CompanyName: "PcComponentes",
-      specialization: "Senior Full Stack developer",
-      MonthOfLeaving: "Mar",
+      specialization: "Programador senior Full Stack ",
+      MonthOfLeaving: "Marzo",
       YearOfLeaving: "2019",
       Achievements: [
         "React",
@@ -78,20 +82,21 @@ export const resumeData = {
       ]
     },
     {
-      CompanyName: "University of Granada",
-      specialization: "Data Scientist and Full Stack developer",
-      MonthOfLeaving: "Jul",
+      CompanyName: "Universidad de Granada",
+      specialization: "Científico de datos y programador Full Stack",
+      MonthOfLeaving: "Julio",
       YearOfLeaving: "2017",
       Achievements: ["Angular", "Jquery", "Java", "Python", "R"]
     },
     {
       CompanyName: "SICE",
-      specialization: "Junior developer",
-      MonthOfLeaving: "Jun",
+      specialization: "Programador junior",
+      MonthOfLeaving: "Junio",
       YearOfLeaving: "2016",
       Achievements: ["React", "C#", "Php"]
     }
   ],
+  skillsTitle: "Habilidades",
   skillsSections: [
     {
       skillsDescription: "Frontend",
@@ -130,39 +135,42 @@ export const resumeData = {
       ]
     }
   ],
+  portfolioTitle: 'Aquí puedes ver algunos de mis trabajos',
   portfolio: [
     {
-      name: "Holidays and Control time module (Laravel, Javascript).",
-      description: "Bilky Documents portal",
+      name: "Módulo de vacaciones y control horario (Laravel, Javascript).",
+      description: "Bilky portal documental",
       purpose:
-        "This module inside of Bilky software allows control and manage your employees vacations and absences easily and the daily signing automatically and safe.",
+        "Este módulo dentro del portal documental Bilky, permite controlar las ausencias y vacaciones de los empleados así como el registro horario.",
       imgurl: "../images/portfolio/bilky2.jpg"
     },
     {
       name:
-        "Neural networks applied to the ticket sales of Alhambra monument (Matlab, Tensorflow).",
-      description: "Research paper",
+        "Redes neuronales aplicadas a la venta de entradas de la Alhambra (Matlab, Tensorflow).",
+      description: "Documento científico",
       purpose:
-        "The aim of this work was to find a forecasting technique with the best adjusts to the demand of visitors to the Alhambra, which is greater every year. Since it's a monument with an annual capacity limit, the flow of visitors forecasting is a crucial issue to organize the capacity in subsequent years.",
+        "El objetivo principal de este trababjo fue encontrar la técnica de predicción basada en redes neuronales con mayor precisión a la demanda de visitantes de la Alhambra, la cual es mayor cada año y supone un gran problema ya que presenta limites en la afluencia a determinados palacios.",
       imgurl: "../images/portfolio/alhambra.jpg"
     },
     {
       name: "Inmobiliaria 3.0 (Django Framework).",
-      description: "Real state website",
-      purpose: "A project to update the current website of the company.",
+      description: "Portal web para inmobiliaria",
+      purpose:
+        "Se actualizó la web que presentaba la inmobiliaria ofreciendo un nuevo portal web con nueva funcionalidad.",
       imgurl: "../images/portfolio/inmo30.jpg"
     }
   ],
   testimonials: [
     {
-      description: "This is a sample testimonial",
-      name: "Some technical guy"
+      description: "Este es un testimonio de ejemplo",
+      name: "John McDonals"
     },
     {
-      description: "This is a sample testimonial",
-      name: "Some technical guy"
+      description: "Este es un testimonio de ejemplo",
+      name: "John McDonals"
     }
-  ]
+  ],
+  madeBy: "Desarrollado con "
 };
 
 export default resumeData;

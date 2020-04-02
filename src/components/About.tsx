@@ -15,14 +15,14 @@ export const About = () => {
         </div>
 
         <div className="nine columns main-col">
-          <h2>About Me</h2>
+          <h2>{data.aboutTitle}</h2>
           {data.aboutme &&
             data.aboutme.map((item: string, key: number) => (
               <p key={key}>{item}</p>
             ))}
           <div className="row">
             <div className="columns contact-details">
-              <h2>Contact Details</h2>
+              <h2>{data.contactTitle}</h2>
               <p className="address">
                 <span>{data.name}</span>
                 <br></br>
