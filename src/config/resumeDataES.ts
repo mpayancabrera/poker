@@ -14,7 +14,7 @@ export const resumeData = {
     },
     {
       text: "Trabajos",
-      ref: "works"
+      ref: "portfolio"
     },
     {
       text: "Testimonios",
