@@ -1,6 +1,28 @@
 export const resumeData = {
+  menu: [
+    {
+      text: "Home",
+      ref: "home"
+    },
+    {
+      text: "About",
+      ref: "about"
+    },
+    {
+      text: "Resume",
+      ref: "resume"
+    },
+    {
+      text: "Works",
+      ref: "works"
+    },
+    {
+      text: "Testimonials",
+      ref: "testimonials"
+    }
+  ],
   name: "Manuel Payán Cabrera",
-  role: "Full Stack Developer and Data Scientist",
+  role: "Welcome, I am Full Stack Developer and Data Scientist",
   roleDescription:
     "I like dabbling in both frontend and backend development and I am always looking out for and learning new and better approaches and technologies that help me do a better job. I really love to watch series and movies, follow any soccer game or simply practice sport in my free time.",
   socialLinks: [

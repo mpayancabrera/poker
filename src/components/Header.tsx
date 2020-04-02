@@ -1,8 +1,17 @@
 import React, { useContext } from "react";
 import { MyContext } from "../config/context";
 
-export const Header = () => {
-  const { data } = useContext(MyContext);
+interface IHeaderProps {
+  onSelectLanguage: Function;
+}
+
+export const Header = (props: IHeaderProps) => {
+  const { data, language } = useContext(MyContext);
+
+  const onChangeLanguage = () => {
+    props.onSelectLanguage();
+  };
+
   return (
     <React.Fragment>
       <header id="home">
@@ -14,30 +23,30 @@ export const Header = () => {
             Hide navigation
           </a>
           <ul id="nav" className="nav">
-            <li className="current">
-              <a className="smoothscroll" href="#home">
-                Home
-              </a>
-            </li>
+            {data.menu &&
+              data.menu.map((item: any, key: number) => {
+                return (
+                  <li
+                    className={
+                      item.text === "Home" || item.text === "Inicio" ? "current" : ""
+                    }
+                    key={key}
+                  >
+                    <a className="smoothscroll" href={"#" + item.ref}>
+                      {item.text}
+                    </a>
+                  </li>
+                );
+              })}
             <li>
-              <a className="smoothscroll" href="#about">
-                About
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#resume">
-                Resume
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#portfolio">
-                Works
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#testimonials">
-                Testimonials
-              </a>
+              <button
+                className={
+                  language === "es-ES"
+                    ? "england-flag vertical horizontal"
+                    : "spain-flag spain-flag-horizontal"
+                }
+                onClick={onChangeLanguage}
+              />
             </li>
           </ul>
         </nav>
@@ -46,7 +55,7 @@ export const Header = () => {
           <div className="banner-text">
             <h1 className="responsive-headline">I am {data.name}</h1>
             <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
-              Welcome, I am a {data.role}.{data.roleDescription}
+              {data.role}.{data.roleDescription}
             </h3>
             <hr />
             <ul className="social">

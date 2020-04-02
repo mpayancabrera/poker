@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 import { Header } from "./components/Header";
 import { About } from "./components/About";
 import { Resume } from "./components/Resume";
@@ -6,13 +6,30 @@ import { Portfolio } from "./components/Portfolio";
 import { Testimonials } from "./components/Testimonials";
 import { Footer } from "./components/Footer";
 import { MyContext } from "./config/context";
-import resumeData from "./config/resumeData";
+import resumeDataES from "./config/resumeDataES";
+import resumeDataEN from "./config/resumeDataEN";
 
 export const App = () => {
+  const [language, setLanguage] = useState<string>("");
+
+  useEffect(() => {
+    setLanguage(window.navigator.language);
+  }, []);
+
+  const onChangeLanguage = () => {
+    console.log("button");
+    setLanguage(language === "es-ES" ? "en-EN" : "es-ES");
+  };
+
   return (
-    <MyContext.Provider value={{ data: resumeData }}>
+    <MyContext.Provider
+      value={{
+        data: language === "es-ES" ? resumeDataES : resumeDataEN,
+        language: language
+      }}
+    >
       <div className="App">
-        <Header />
+        <Header onSelectLanguage={onChangeLanguage} />
         <About />
         <Resume />
         <Portfolio />
