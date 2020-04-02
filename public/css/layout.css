@@ -30,6 +30,55 @@ body {
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+button.spain-flag {
+  margin: 10px auto;
+  width: 45px;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  background-color: #ff0000;
+}
+
+.spain-flag-horizontal::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 0;
+  right: 0;
+  border-top: 12px solid #fff000;
+}
+
+.vertical::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border-left: 8px solid #ff0000;
+  transform: translate(-50%);
+}
+
+.horizontal::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 35%;
+  left: 0;
+  right: 0;
+  border-top: 8px solid #ff0000;
+}
+
+button.england-flag {
+  margin: 10px auto;
+  width: 45px;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+}
+
 header {
   position: relative;
   height: 800px;
@@ -55,7 +104,7 @@ header .banner {
   margin: 0 auto;
   width: 85%;
   padding-bottom: 30px;
-  stext-align: center;
+  text-align: center;
 }
 
 header .banner-text {

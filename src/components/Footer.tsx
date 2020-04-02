@@ -29,7 +29,7 @@ export const Footer = (props: any) => {
         </div>
         <div id="made-by">
           <span className="author">
-            Made with <FaHeart className="icon-heart" /> Manuel Payán Cabrera
+            {data.madeBy}<FaHeart className="icon-heart" /> Manuel Payán Cabrera
           </span>
         </div>
       </div>
