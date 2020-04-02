@@ -17,7 +17,6 @@ export const App = () => {
   }, []);
 
   const onChangeLanguage = () => {
-    console.log("button");
     setLanguage(language === "es-ES" ? "en-EN" : "es-ES");
   };
 
