@@ -15,6 +15,10 @@ export const resumeData = {
     {
       text: "Trabajos",
       ref: "portfolio"
+    },
+    {
+      text: "Testimonios",
+      ref: "testimonials"
     }
   ],
   name: "Manuel Payán Cabrera",
@@ -154,6 +158,16 @@ export const resumeData = {
       purpose:
         "Se actualizó la web que presentaba la inmobiliaria ofreciendo un nuevo portal web con nueva funcionalidad.",
       imgurl: "../images/portfolio/inmo30.jpg"
+    }
+  ],
+  testimonials: [
+    {
+      description: "Este es un testimonio de ejemplo",
+      name: "John McDonals"
+    },
+    {
+      description: "Este es un testimonio de ejemplo",
+      name: "John McDonals"
     }
   ],
   madeBy: "Desarrollado con "
