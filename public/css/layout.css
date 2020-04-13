@@ -450,6 +450,12 @@ ul#nav li.current a {
   -webkit-animation: php 2.5s ease;
 }
 
+.node {
+  width: 70%;
+  -moz-animation: php 2.5s ease;
+  -webkit-animation: php 2.5s ease;
+}
+
 .docker {
   width: 70%;
   -moz-animation: docker 2.5s ease;
@@ -457,6 +463,11 @@ ul#nav li.current a {
 }
 .kubernetes {
   width: 70%;
+  -moz-animation: kubernetes 2.5s ease;
+  -webkit-animation: kubernetes 2.5s ease;
+}
+.nginx {
+  width: 60%;
   -moz-animation: kubernetes 2.5s ease;
   -webkit-animation: kubernetes 2.5s ease;
 }
@@ -494,6 +505,14 @@ ul#nav li.current a {
   }
 }
 @-moz-keyframes php {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@-moz-keyframes node {
   0% {
     width: 0px;
   }
@@ -574,6 +593,14 @@ ul#nav li.current a {
   }
   100% {
     width: 70%;
+  }
+}
+@-webkit-keyframes nginx {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
   }
 }
 

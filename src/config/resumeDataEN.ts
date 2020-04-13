@@ -18,7 +18,7 @@ export const resumeData = {
     }
   ],
   name: "Manuel Payán Cabrera",
-  role: "Welcome, I am Full Stack Developer and Data Scientist",
+  role: "Welcome! First of all, thanks for visiting my page. I am Full Stack Developer and Data Scientist",
   roleDescription:
     "I like dabbling in both frontend and backend development and I am always looking out for and learning new and better approaches and technologies that help me do a better job. I really love to watch series and movies, follow any soccer game or simply practice sport in my free time.",
   socialLinks: [
@@ -35,7 +35,7 @@ export const resumeData = {
   ],
   aboutTitle: "About Me",
   aboutme: [
-    "First of all, thanks for visiting my page. I am currently working at PcComponentes as Full Stack developer since March 2019 (Granada office). We are currently working on improving the web so that the user experience is really good and on multiple internal tools that make the work of the people at PcComponentes easier.",
+    "I am currently working at PcComponentes as Full Stack developer since March 2019 (Granada office). We are currently working on improving the web so that the user experience is really good and on multiple internal tools that make the work of the people at PcComponentes easier.",
     "Before, I have worked as researcher at the University of Granada. I was part of a group of researchers for a project between the university and  Alhambra of Granada in which the aim was to improve the flow of visitors and avoid the multiple problems it presented.",
     "Before starting to work in Granada, I spent a year and a half at SICE (Madrid) an international company dedicated to the development of intelligent transport systems. This has been a short tour of my professional experience, without forgetting that I started as SAP developer at Accenture (Malaga) during a year.",
     "I am a self taught Full Stack Web Developer and from two years ago, also into Machine Learning. I believe that one of the keys to success in life is to work very hard. One must pursue his dreams and continue working towards them. Therefore, I strive every day to learn new technologie, in how to improve my code or watching talks about experts."
@@ -71,9 +71,13 @@ export const resumeData = {
         "React",
         "Symfony",
         "Python",
+        "node",
         "Docker",
         "Kubernetes",
-        "CI/CD"
+        "CI/CD",
+        "Nginx",
+        "RabbitMQ",
+        "PostgreSQL"
       ]
     },
     {
@@ -81,14 +85,14 @@ export const resumeData = {
       specialization: "Data Scientist and Full Stack developer",
       MonthOfLeaving: "Jul",
       YearOfLeaving: "2017",
-      Achievements: ["Angular", "Jquery", "Java", "Python", "R"]
+      Achievements: ["Angular", "Jquery", "Java", "Python", "R", "Knime", "Matlab", "Tensorflow", "MySQL", "MongoDB"]
     },
     {
       CompanyName: "SICE",
       specialization: "Junior developer",
       MonthOfLeaving: "Jun",
       YearOfLeaving: "2016",
-      Achievements: ["React", "C#", "Php"]
+      Achievements: ["React", "C#", "Php", "SQL Server", "PostgreSQL"]
     }
   ],
   skillsTitle: "Skills",
@@ -115,6 +119,9 @@ export const resumeData = {
         },
         {
           skillname: "Php"
+        },
+        {
+          skillname: "Node"
         }
       ]
     },
@@ -126,6 +133,9 @@ export const resumeData = {
         },
         {
           skillname: "Kubernetes"
+        },
+        {
+          skillname: "Nginx"
         }
       ]
     }

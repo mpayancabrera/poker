@@ -19,9 +19,9 @@ export const resumeData = {
   ],
   name: "Manuel Payán Cabrera",
   role:
-    "Bienvenido, soy ingeniero de software Full Stack y Científico de Datos",
+    "Bienvenido! En primer lugar, gracias por visitar mi página. Soy ingeniero de software Full Stack y Científico de Datos",
   roleDescription:
-    " Me gusta el desarrollo tanto frontend como backend. Intento estar al tanto sobre nuevas técnologias y en técnicas o habilidades para mejorar como programador y así poder realizar mejor mi trabajo. Me encanta ver series y películas, ver cualquier partido de fútbol (no importa la liga que sea) o simplemente prácticar cualquier deporte en mi tiempo libre.",
+    " Me dedico tanto al desarrollo frontend como backend. En mi tiempo libre intento estar al tanto sobre nuevas técnologias y técnicas/habilidades para mejorar como programador y así poder realizar mejor mi trabajo. Me encanta ver series y películas, ver cualquier partido de fútbol (no importa la liga que sea) o simplemente prácticar cualquier deporte.",
   socialLinks: [
     {
       name: "linkedin",
@@ -36,7 +36,7 @@ export const resumeData = {
   ],
   aboutTitle: "Un poco sobre mi",
   aboutme: [
-    "En primer lugar, gracias por visitar mi página. Actualmente estoy trabajando para PcComponentes como desarrollador Full Stack desde marzo del 2019. PcComponentes tiene su sede principal en Alhama de Murcia, sin embargo, en 2018 abrió una sede para equipos IT en Granada. Entre los trabajos que estamos llevando a cabo actualmente se encuentran mejorar la web actual, para que la experiencia de usuario sea completamente satisfactoria y el desarrollo de herramientas internas que hagan más facil el trabajo de las personas de la compañia.",
+    "Actualmente estoy trabajando para PcComponentes como desarrollador Full Stack desde marzo del 2019. PcComponentes tiene su sede principal en Alhama de Murcia, sin embargo, en 2018 abrió una sede para equipos IT en Granada. Entre los trabajos que estamos llevando a cabo actualmente se encuentran mejorar la web actual, para que la experiencia de usuario sea completamente satisfactoria y el desarrollo de herramientas internas que hagan más facil el trabajo de las personas de la compañia.",
     "Antes de empezar a trabajar en PcComponentes, trabajé en la Universidad de Granada a través de un contrato de colaboración con el Patronato de la Alhambra. El principal objetivo de esta colaboración fue realizar diferentes estudios y la elaboración de diferentes herramientas que permitiesen mejorar la distribución de entradas a la venta así como mejorar el flujo de visitantes al monumento.",
     "Paso previo a mi etapa en Granada, estuve trabajando durante año y medio en SICE (Madrid) una compañia internacional, filial de ACS, dedicada al diseño y desarrollo de sistemas inteligentes de transporte. Este ha sido un pequeño tour sobre mi experiencia profesional, sin olvidar mi primer trabajo como desarrollador SAP en Accenture (Malaga).",
     "Me considero una persona autodidata con especial interés por la ciencia de datos y el desarrollo web. Considero que la clave para tener éxito tanto en la vida como en el trabajo es esforzarse y trabajar duro. Por ello, siempre trato de resolver los problemas que se presentan por difíciles que puedan parecer a priori. Invertir parte de mi tiempo libre a mejorar mediante cursos, tutoriales o charlas me ayuda a cumplir mi sueño."
@@ -72,9 +72,13 @@ export const resumeData = {
         "React",
         "Symfony",
         "Python",
+        "node",
         "Docker",
         "Kubernetes",
-        "CI/CD"
+        "CI/CD",
+        "Nginx",
+        "RabbitMQ",
+        "PostgreSQL"
       ]
     },
     {
@@ -82,14 +86,14 @@ export const resumeData = {
       specialization: "Científico de datos y programador Full Stack",
       MonthOfLeaving: "Julio",
       YearOfLeaving: "2017",
-      Achievements: ["Angular", "Jquery", "Java", "Python", "R"]
+      Achievements: ["Angular", "Jquery", "Java", "Python", "R", "Knime", "Matlab", "Tensorflow", "MySQL", "MongoDB"]
     },
     {
       CompanyName: "SICE",
       specialization: "Programador junior",
       MonthOfLeaving: "Junio",
       YearOfLeaving: "2016",
-      Achievements: ["React", "C#", "Php"]
+      Achievements: ["React", "C#", "Php", "SQL Server", "PostgreSQL"]
     }
   ],
   skillsTitle: "Habilidades",
@@ -116,6 +120,9 @@ export const resumeData = {
         },
         {
           skillname: "Php"
+        },
+        {
+          skillname: "Node"
         }
       ]
     },
@@ -127,6 +134,9 @@ export const resumeData = {
         },
         {
           skillname: "Kubernetes"
+        },
+        {
+          skillname: "Nginx"
         }
       ]
     }
