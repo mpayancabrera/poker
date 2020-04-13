@@ -15,10 +15,6 @@ export const resumeData = {
     {
       text: "Works",
       ref: "portfolio"
-    },
-    {
-      text: "Testimonials",
-      ref: "testimonials"
     }
   ],
   name: "Manuel Payán Cabrera",
@@ -156,16 +152,6 @@ export const resumeData = {
       description: "Real state website",
       purpose: "A project to update the current website of the company.",
       imgurl: "../images/portfolio/inmo30.jpg"
-    }
-  ],
-  testimonials: [
-    {
-      description: "This is a sample testimonial",
-      name: "Some technical guy"
-    },
-    {
-      description: "This is a sample testimonial",
-      name: "Some technical guy"
     }
   ],
   madeBy: "Made with "
