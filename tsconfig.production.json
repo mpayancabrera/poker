@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es6",
+    "module": "commonjs",
+    "declaration": true,
+    "strict": true,
+    "jsx": "react",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports":true,
+    "esModuleInterop": true,
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin"
+      }
+    ],
+  },
+  "include": ["src/module/**/*"],
+  "exclude": ["node_modules", "dist"]
+ }

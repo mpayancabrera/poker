@@ -1,15 +1,12 @@
-import React from "react";
-import { Header } from "./components/Header";
-import { Resume } from "./components/Resume";
-import { Footer } from "./components/Footer";
+import React, { useRef, useReducer, useEffect } from 'react';
+import { Layout, Menu, Icon, Button } from 'antd';
+import { Link } from 'react-router-dom';
 
-export const App = () => {
-
+const App: React.FC = () => {
+  
   return (
-    <div className="App">
-      <Header />
-      <Resume />>
-      <Footer />
-    </div>
+    <></>
   );
 };
+
+export default App;

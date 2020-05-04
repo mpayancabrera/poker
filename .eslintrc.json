@@ -1,0 +1,50 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "spaced-comment": "off",
+    "no-console": "error",
+    "prefer-const": "error",
+    "no-unused-vars": "off",
+    "import/no-duplicates": "on",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/array-type": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "react/display-name": "off",
+    "react/prop-types": "off",
+    "react/jsx-key": "off"
+  }
+}
