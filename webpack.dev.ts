@@ -31,18 +31,6 @@ const config: webpack.Configuration = {
     htmlPlugin,
     new CopyWebPackPlugin([
       {
-        from: "./public/css",
-        to: "css"
-      },
-      {
-        from: "./public/js",
-        to: "js"
-      },
-      {
-        from: "./public/images",
-        to: "images"
-      },
-      {
         from: "./public/favicon.ico",
         to: ""
       },
