@@ -1,11 +1,23 @@
-import React, { useRef, useReducer, useEffect } from 'react';
-import { Layout, Menu, Icon, Button } from 'antd';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { Layout } from 'antd';
+import styled from 'styled-components';
+import { Header, PreFlopCards } from './components';
+
+const { Footer } = Layout;
+
+const StyledHeader = styled(Header)`
+  background-color: #ccc;
+  height: 200px;
+  margin: auto;
+`;
 
 const App: React.FC = () => {
-  
   return (
-    <></>
+    <Layout>
+      <StyledHeader />
+      <PreFlopCards />
+      <Footer>Footer</Footer>
+    </Layout>
   );
 };
 
