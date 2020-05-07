@@ -1,9 +1,8 @@
 import React from 'react';
 import { Layout } from 'antd';
 import styled from 'styled-components';
-import { Header, PreFlopCards } from './components';
-
-const { Footer } = Layout;
+import { Header, PreFlopCards, Footer } from './components';
+import { ContextProvider } from './config/Context';
 
 const StyledHeader = styled(Header)`
   background-color: #ccc;
@@ -13,11 +12,13 @@ const StyledHeader = styled(Header)`
 
 const App: React.FC = () => {
   return (
-    <Layout>
-      <StyledHeader />
-      <PreFlopCards />
-      <Footer>Footer</Footer>
-    </Layout>
+    <ContextProvider>
+      <Layout>
+        <StyledHeader />
+        <PreFlopCards />
+        <Footer />
+      </Layout>
+    </ContextProvider>
   );
 };
 
